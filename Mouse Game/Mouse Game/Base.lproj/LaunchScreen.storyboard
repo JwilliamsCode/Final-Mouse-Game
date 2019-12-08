@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Good_Cheese.png" translatesAutoresizingMaskIntoConstraints="NO" id="iKW-gK-YWP">
+                                <rect key="frame" x="167" y="48" width="271" height="229"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="aA6-4b-Aab">
+                                <rect key="frame" x="16" y="-116" width="706" height="467"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="467" id="YqJ-sS-VdY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mouse-icon.ico" translatesAutoresizingMaskIntoConstraints="NO" id="618-ZY-ciQ">
+                                <rect key="frame" x="509" y="115" width="247" height="245"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="hCN-wp-vrd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aA6-4b-Aab" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-44" id="Dpy-f5-SEj"/>
+                            <constraint firstItem="618-ZY-ciQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="FA4-L9-Uhx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="618-ZY-ciQ" secondAttribute="bottom" constant="33" id="M4i-Ho-hJv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iKW-gK-YWP" secondAttribute="bottom" constant="116" id="TYf-DU-ct7"/>
+                            <constraint firstItem="618-ZY-ciQ" firstAttribute="leading" secondItem="iKW-gK-YWP" secondAttribute="trailing" constant="71" id="cc4-j7-xaf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="618-ZY-ciQ" secondAttribute="trailing" constant="96" id="eTF-oe-LUB"/>
+                            <constraint firstItem="iKW-gK-YWP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="gEH-jb-iaM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aA6-4b-Aab" secondAttribute="bottom" constant="42" id="hOK-2b-k2E"/>
+                            <constraint firstItem="iKW-gK-YWP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="rpM-2B-sVc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aA6-4b-Aab" secondAttribute="trailing" constant="130" id="ysb-a6-hRk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.5625" y="372.46376811594206"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Good_Cheese.png" width="415.38461303710938" height="310.84616088867188"/>
+        <image name="launchScreen.png" width="1920" height="1080"/>
+        <image name="mouse-icon.ico" width="256" height="256"/>
+    </resources>
+</document>
